@@ -1,6 +1,6 @@
 # Tipos y Operadores
 
-En este capítulo vamos a hablar sobre cadenas de texto, números y booleanos (verdadero o falso), que son tipos de datos básicos en JavaScript. También vamos a ver cómo realizar operaciones matemáticas a realizar operaciones sobre esos tipos de datos. Empecemos con las cadenas de texto.
+En este capítulo vamos a hablar sobre cadenas de texto, números y booleanos (verdadero o falso), que son tipos de datos básicos en JavaScript, y cómo realizar algunas operaciones básicas con ellos. Empecemos con las cadenas de texto.
 
 ## Cadenas de texto
 
@@ -11,30 +11,33 @@ Una cadena de texto es un conjunto de caracteres encerrados entre comillas simpl
 'Texto entre comillas simples'
 ```
 
-Los siguientes son los errores más comunes de los principiantes al definir una cadena de texto:
+Eso es todo. Sin embargo, queremos mostrarte los tres errores más comunes que cometen los principiantes al definir una cadena de texto para que los tengas en cuenta y no los cometas:
 
 1. Olvidarse de la comilla de cierre. Por ejemplo:
+
    ```
    "Hola mundo
    ```
-2. Cerrarla con la otra comilla (p.e. abrir la cadena con comilla doble y cerrarla con comilla sencilla). Por ejemplo:
+2. Cerrar la cadena con la comilla incorrecta (p.e. abrir la cadena con comilla doble y cerrarla con comilla sencilla). Por ejemplo:
+
    ```
    "Hola mundo'
    ```
-3. Insertar una comilla del mismo tipo que se usó para encerrar la cadena. Por ejemplo:
+3. Insertar el mismo tipo de comillas dentro de la cadena de texto. Por ejemplo:
+
    ```
    "Y él dijo: "Hola Mundo""
    'Hol'a mundo'
    ```
 
-Para solucionar el último error común podemos encerrar la primera cadena en comillas simples y la segunda en comillas dobles para que funcione:
+Para solucionar el último error (punto 3) podemos encerrar la primera cadena entre comillas simples y la segunda entre comillas dobles para que funcione:
 
 ```js
 "Hol'a mundo"
 'Y él dijo: "Hola mundo"'
 ```
 
-**Recuerda:** Lo importante es que el texto no contenga la comilla que se utilizó para encerrar la cadena.
+**Recuerda:** Lo importante es que el texto no contenga la comilla que se utilizó para definir la cadena.
 
 Pero ¿qué pasa si tenemos un texto con comillas simples y dobles? En ese caso tendríamos que utilizar el caracter de escape `\` como en el siguiente ejemplo:
 

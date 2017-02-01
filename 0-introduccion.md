@@ -1,10 +1,10 @@
 # Primeros Pasos
 
-En este libro vas a aprender las bases de JavaScript, que te serán útiles sin importar el qué camino desees tomar con el lenguaje más adelante, ya sea convertirte en Desarrollador Front End, Backend o Móvil.
+En este libro vas a aprender las bases de JavaScript, que te serán útiles sin importar qué camino desees tomar con el lenguaje más adelante, ya sea convertirte en Desarrollador Front End, Backend y/o Móvil.
 
-Sin embargo, la mayoría de ejemplos los vamos a ejecutar sobre [NodeJS](https://nodejs.org/en/). Así desees convertirte en Desarrollador Front End vas a necesitar [NodeJS](https://nodejs.org/en/) para automatizar tareas de desarrollo y definir dependencias a librerías que utilices desde tus proyectos, y por eso vale la pena familiarizarse con esta plataforma desde ahora.
+En este capítulo vamos a ver cómo ejecutar código JavaScript tanto en el navegador como en [NodeJS](https://nodejs.org/en/), pero para la mayoría de ejemplos más adelante nos vamos a concentrar en [NodeJS](https://nodejs.org/en/) únicamente. La razón es que, incluso si tu objetivo es convertirte en Desarrollador Front End, vas a necesitar [NodeJS](https://nodejs.org/en/) para automatizar tareas de desarrollo y definir dependencias a librerías que utilices desde tus proyectos, así que vale la pena familiarizarse con esta plataforma desde ahora.
 
-A medida que avancemos por los conceptos vas a encontrar código de ejemplo y algunos ejercicios. Nuestra recomendación es que los transcribas y los ejecutes en tu computador para que aceleres tu aprendizaje. Recuerda que la mejor forma de aprender sobre programación es escribiendo código.
+Por último, nuestra recomendación es que transcribas y ejecutes cada uno de los ejemplos de este libro en tu computador e intentes solucionar cada uno de los ejercicios de forma que aceleres tu aprendizaje. Recuerda que la mejor forma de aprender sobre programación es escribiendo código.
 
 ## Requisitos
 
@@ -12,7 +12,7 @@ Para sacar el mayor provecho de este libro necesitas saber qué es la línea de 
 
 Para seguir los ejemplos de este libro vas a necesitar tener instalado [NodeJS](https://nodejs.org/en/) y un editor de texto como [Atom](https://atom.io/), [Sublime Text](https://www.sublimetext.com/) o el de tu preferencia. Si no tienes un editor de preferencia nuestra recomendación es que instales [Atom](https://atom.io/).
 
-Lo más probable es que aún no tengas instalado [NodeJS](https://nodejs.org/en/). Sin embargo, puedes verificar abriendo una línea de comandos y ejecutando `node -v`. Si ya lo tienes te va a aparecer una línea similar a la siguiente:
+Aunque lo más probable es que aún no tengas instalado [NodeJS](https://nodejs.org/en/) en tu máquina, verifica igual abriendo una línea de comandos y ejecutando `node -v`. Si ya lo tienes te va a aparecer una línea similar a la siguiente:
 
 ```
 $ node -v
@@ -21,7 +21,7 @@ v7.0.2
 
 La versión puede ser diferente, y cualquier versión mayor a 5.0.0 está bien.
 
-Si ves un mensaje diciendo que el comando no fue encontrado, significa que aún no lo tienes instalado. Puedes encontrar las instrucciones para instalarlo en el siguiente enlace: .
+Si ves un mensaje diciendo que el comando no fue encontrado, significa que aún no lo tienes instalado. Puedes encontrar las instrucciones para instalarlo en el siguiente enlace: https://github.com/makeitrealcamp/node-installation.
 
 Una vez que tengas instalado [NodeJS](https://nodejs.org/en/) y lo hayas verificado, continúa. En las siguientes secciones vamos a ver cómo ejecutar código JavaScript tanto en el navegador como en [NodeJS](https://nodejs.org/en/).
 
@@ -41,7 +41,7 @@ Una de las herramientas que incluyen las herramientas de desarrollador es la **C
 
 ![Herramientas de Desarrollador](images/developer-tools.jpg)
 
-La **Consola** nos permite escribir una expresión de JavaScript, oprimir Enter, y ver el resultado de esa expresión en la siguiente línea. Por ejemplo, escribe `1+2` y oprime Enter. Deberás ver el número `3` en la siguiente línea como se muestra en la siguiente imagen.
+En la **Consola** podemos escribir una expresión de JavaScript, oprimir Enter, y ver el resultado de esa expresión en la siguiente línea. Por ejemplo, escribe `1+2` y oprime Enter. Deberás ver el número `3` en la siguiente línea como se muestra en la siguiente imagen.
 
 ![La Consola](images/developer-tools-console.jpg)
 
@@ -134,7 +134,7 @@ Cambia el texto por cualquier otro y vuelve a ejecutar el archivo.
 
 ¡Felicitaciones, has creado tu primer programa en JavaScript con NodeJS!
 
-## Errors
+## Errores
 
 Veamos ahora qué pasa si cometemos algún error en nuestro código. Por ejemplo, borra el caracter `l` de la palabra `console` y vuelve a ejecutar el archivo. Te debería aparecer un mensaje de error similar al siguiente:
 
@@ -208,7 +208,7 @@ Esto está muy bacano
 
 ## Comentarios
 
-Los comentarios se utilizan para documentar o aclarar nuestro código. En JavaScript se utilizan los caracteres `//` para crear un comentario de una línea. Por ejemplo:
+Los comentarios se utilizan para documentar o aclarar nuestro código y son ignorados al ejecutar el archivo. En JavaScript se utilizan los caracteres `//` para crear un comentario de una línea. Por ejemplo:
 
 ```js
 // este es un comentario de una línea
