@@ -3,9 +3,5 @@
     "plugins": [
         "-search",
         "-lunr"
-    ],
-
-    "links": {
-        "home": false
-    }
+    ]
 }
