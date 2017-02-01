@@ -1,4 +1,4 @@
-[Inicio](README.md)
-[Primeros pasos](0-introduccion.md)
-[Tipos y Operadores](1-tipos-y-operadores.md)
-[Variables](2-variables.md)
+* [Inicio](README.md)
+* [Primeros pasos](0-introduccion.md)
+* [Tipos y Operadores](1-tipos-y-operadores.md)
+* [Variables](2-variables.md)
