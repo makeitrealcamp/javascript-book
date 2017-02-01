@@ -1,18 +1,18 @@
 # Primeros Pasos
 
-En este libro vas a aprender las bases de JavaScript que te van a servir para ejecutar código tanto en el navegador como en NodeJS.
+En este libro vas a aprender las bases de JavaScript, que te serán útiles sin importar el qué camino desees tomar con el lenguaje más adelante, ya sea convertirte en Desarrollador Front End, Backend o Móvil.
 
-La mayoría de ejemplos los vamos a ejecutar sobre NodeJS. La razón es que así te quieras convertir en Desarrollador Front End vas a necesitar NodeJS para automatizar tareas de desarrollo y definir dependencias a las librerías que utilices desde tus proyectos, y es por esto que vale la pena familiarizarse con esta plataforma desde ahora.
+Sin embargo, la mayoría de ejemplos los vamos a ejecutar sobre [NodeJS](https://nodejs.org/en/). Así desees convertirte en Desarrollador Front End vas a necesitar [NodeJS](https://nodejs.org/en/) para automatizar tareas de desarrollo y definir dependencias a librerías que utilices desde tus proyectos, y por eso vale la pena familiarizarse con esta plataforma desde ahora.
 
-A medida que avancemos por los conceptos vas a encontrar código de ejemplo y algunos ejercicios. Nuestra recomendación es que los transcribas y ejecutes en tu computador para que aceleres tu aprendizaje. Recuerda que la mejor forma de aprender sobre programación es escribiendo código.
+A medida que avancemos por los conceptos vas a encontrar código de ejemplo y algunos ejercicios. Nuestra recomendación es que los transcribas y los ejecutes en tu computador para que aceleres tu aprendizaje. Recuerda que la mejor forma de aprender sobre programación es escribiendo código.
 
 ## Requisitos
 
-Para sacar el mayor provecho de este libro necesitas saber qué es la línea de comandos (también conocida como consola, terminal o símbolo del sitema), cómo abrirla y cómo navegar por las carpetas de tu computador. Si aún no estás familiarizado con la línea de comandos te recomendamos este post en el blog de Make it Real que te brinda una introducción y te indica algunos recursos que puedes consultar si quieres más información.
+Para sacar el mayor provecho de este libro necesitas saber qué es la línea de comandos (también conocida como consola, terminal o símbolo del sitema), cómo abrirla y cómo navegar por las carpetas de tu computador. Si aún no estás familiarizado con la línea de comandos te recomendamos [este post en el blog de Make it Real](http://blog.makeitreal.camp/la-linea-de-comandos/) que te brinda una introducción y te indica algunos recursos que puedes consultar si quieres más información.
 
-Para seguir los ejemplos de este libro vas a necesitar tener instalado NodeJS y un editor de texto como Atom, Sublime Text o el de tu preferencia. Si no tienes un editor de preferencia nuestra recomendación es que instales Atom.
+Para seguir los ejemplos de este libro vas a necesitar tener instalado [NodeJS](https://nodejs.org/en/) y un editor de texto como [Atom](https://atom.io/), [Sublime Text](https://www.sublimetext.com/) o el de tu preferencia. Si no tienes un editor de preferencia nuestra recomendación es que instales [Atom](https://atom.io/).
 
-Lo más probable en este punto es que aún no tengas instalado NodeJS. Sin embargo, puedes verificar abriendo una línea de comandos y ejecutando `node -v`. Si ya lo tienes te va a aparecer una línea similar a la siguiente:
+Lo más probable es que aún no tengas instalado [NodeJS](https://nodejs.org/en/). Sin embargo, puedes verificar abriendo una línea de comandos y ejecutando `node -v`. Si ya lo tienes te va a aparecer una línea similar a la siguiente:
 
 ```
 $ node -v
@@ -23,7 +23,7 @@ La versión puede ser diferente, y cualquier versión mayor a 5.0.0 está bien.
 
 Si ves un mensaje diciendo que el comando no fue encontrado, significa que aún no lo tienes instalado. Puedes encontrar las instrucciones para instalarlo en el siguiente enlace: .
 
-Una vez que tengas instalado NodeJS y lo hayas verificado, continúa. En las siguientes secciones vamos a ver cómo ejecutar código JavaScript tanto en el navegador como en NodeJS.
+Una vez que tengas instalado [NodeJS](https://nodejs.org/en/) y lo hayas verificado, continúa. En las siguientes secciones vamos a ver cómo ejecutar código JavaScript tanto en el navegador como en [NodeJS](https://nodejs.org/en/).
 
 ## Ejecutando JavaScript en el navegador
 
@@ -37,9 +37,13 @@ La forma más fácil de abrir las herramientas de desarrollador en cualquier nav
 
 También existe un atajo del teclado para abrir y cerrar las herramientas de desarrollador. El atajo para la mayoría de navegadores en Mac es `Alt` + `Command` + `I`. Para PC es `Ctrl` + `Shift` + `I`.
 
-Una de las herramientas que incluyen las herramientas de desarrollador es la **Consola**, que la puedes abrir haciendo click en la pestaña que se muestra en la siguiente imagen.
+Una de las herramientas que incluyen las herramientas de desarrollador es la **Consola**, que la puedes abrir haciendo click en la pestaña "Consola" (o en Inglés "Console") como se muestra en la siguiente imagen.
+
+![Herramientas de Desarrollador](images/developer-tools.jpg)
 
 La **Consola** nos permite escribir una expresión de JavaScript, oprimir Enter, y ver el resultado de esa expresión en la siguiente línea. Por ejemplo, escribe `1+2` y oprime Enter. Deberás ver el número `3` en la siguiente línea como se muestra en la siguiente imagen.
+
+![La Consola](images/developer-tools-console.jpg)
 
 ### A través de un documento HTML
 
@@ -85,7 +89,7 @@ Ahora modifica `index.html` con el siguiente contenido:
 
 ## Ejecutando código en NodeJS
 
-Existen dos formas de ejecutar código JavaScript en NodeJS: desde la consola de NodeJS o desde un archivo.
+Existen dos formas de ejecutar código JavaScript en [NodeJS](https://nodejs.org/en/): desde la consola de NodeJS o desde un archivo.
 
 ### La consola de NodeJS
 
@@ -111,7 +115,7 @@ Para salir de la consola oprime `Ctrl` + `D`.
 
 ### Desde un archivo
 
-La otra forma de ejecutar código JavaScript es crear un archivo con extensión `js` en el que escribimos nuestro código y lo ejecutamos con el comando `node`.
+La otra forma de ejecutar código JavaScript en [NodeJS](https://nodejs.org/en/) es crear un archivo con extensión `js` en el que escribimos nuestro código y lo ejecutamos con el comando `node`.
 
 Crea un archivo llamado `app.js`, ábrelo con tu editor favorito y pega el siguiente contenido:
 
@@ -152,7 +156,7 @@ ReferenceError: consoe is not defined
     at bootstrap_node.js:535:3
 ```
 
-Toma un tiempo acostumbrarse a leer los mensajes de error de NodeJS pero ahí está todo lo que necesitas saber para solucionarlo. El caracter `^` nos muestra dónde ocurrió el error (aunque está mezclado con otro código que genera NodeJS) y debajo se línea una frase que dice `ReferenceError: consoe is not defined`.
+Toma un tiempo acostumbrarse a leer los mensajes de error de NodeJS pero ahí está todo lo que necesitas saber para solucionarlo. El caracter `^` nos muestra dónde ocurrió el error (aunque está mezclado con otro código que genera NodeJS) y debajo de esa línea una frase que dice `ReferenceError: consoe is not defined`.
 
 Hay veces en los que es fácil encontrar los errores, otras veces no es tan fácil. Lo que si es cierto es que a medida que vayas trabajando con el lenguaje vas a ir desarrollando una intuición que te va a permitir solucionar los errores más fácilmente, pero al principio es un proceso lento que es parte de ese aprendizaje.
 
@@ -204,7 +208,7 @@ Esto está muy bacano
 
 ## Comentarios
 
-Los comentarios se utilizan para documentar o aclarar nuestro código. En JavaScript se utilizan los caracteres `//` para crear un comentario de una línea:
+Los comentarios se utilizan para documentar o aclarar nuestro código. En JavaScript se utilizan los caracteres `//` para crear un comentario de una línea. Por ejemplo:
 
 ```js
 // este es un comentario de una línea
@@ -212,7 +216,7 @@ console.log("Hola Mundo");
 console.log("Esto está muy bacano"); // este es otro comentario
 ```
 
-También puedes crear comentarios de múltiples líneas encerrando el texto entre `/*` y `*/`:
+También puedes crear comentarios de múltiples líneas encerrando el texto entre `/*` y `*/`. Por ejemplo:
 
 ```js
 /*

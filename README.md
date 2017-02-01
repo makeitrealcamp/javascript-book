@@ -1,10 +1,10 @@
 # Introducción a JavaScript
 
-JavaScript se ha convertido en el lenguaje más popular de programación, y por una buena razón. Por un lado, JavaScript es el único lenguaje que entienden los navegadores Web como Internet Explorer, Chrome, etc. Por otro lado, gracias a una plataforma llamada [NodeJS](https://nodejs.org/en/) hoy es posible utilizar JavaScript fuera del navegador para crear todo tipo de aplicaciones: aplicaciones de escritorio, aplicaciones móviles, aplicaciones de la línea de comandos y backends de aplicaciones Web, entre otros.
+JavaScript se ha convertido en el lenguaje más popular de programación, y por una buena razón. JavaScript es el único lenguaje que entienden los navegadores como Internet Explorer, Chrome, etc. Y ahora, gracias a una plataforma llamada [NodeJS](https://nodejs.org/en/), hoy es posible utilizar JavaScript fuera del navegador para crear todo tipo de aplicaciones: aplicaciones de escritorio, aplicaciones móviles, aplicaciones de la línea de comandos y backends de aplicaciones Web, entre otros.
 
 ## ¿Por qué otro libro de JavaScript?
 
-Aunque existe una multitud de recursos en Internet sobre JavaScript, no existía una introducción en Español clara que cualquiera, incluso la persona más principiante, pudiera seguir. Varios estudiantes de [Make it Real](http://www.makeitreal.camp/) nos expresaron ese mismo sentimiento y es por eso que decidimos crear este libro y publicarlo de forma gratuita, de modo que otros lo puedan aprovechar y ayudarnos a mejorarlo.
+Aunque existe una multitud de recursos en Internet sobre JavaScript, no existía una introducción en Español clara que cualquiera, incluso la persona más principiante, pudiera seguir. Varios estudiantes de [Make it Real](http://www.makeitreal.camp/) nos expresaron ese mismo sentimiento y por eso decidimos crear este libro y publicarlo de forma gratuita.
 
 ## ¿A quién está dirigido?
 
