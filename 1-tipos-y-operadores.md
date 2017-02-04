@@ -137,41 +137,43 @@ En el primer ejemplo JavaScript toma la cadena `"1 + 2 es "` y la concatena con 
 
 En el segundo ejemplo JavaScript realiza primero la operación `(1 + 2)`, que da `3`, y luego concatena la cadena `"1 + 2 es "` con ese `3`, por eso es que el resultado es ahora `"1 + 2 es 3"`.
 
-### Comparaciones
+### Valores y expresiones booleanas
 
-Crea un nuevo archivo llamado `comparisons.js` y escribe lo siguiente:
+Existen dos valores booleanos en programación: verdadero (`true`) y falso (`false`). Abre la consola de NodeJS, escribe `true` y oprime Enter, después escribe `false` y oprime Enter. El resultado debe ser el siguiente:
 
-```js
-console.log(5 > 3) // mayor que
-console.log(5 >= 3) // mayor o igual que
-console.log(4 < 4) // menor que
-console.log(4 <= 4) // menor o igual que
-console.log(2 == 2) // igual a
-console.log(2 != 2) // diferente de
 ```
-
-Ejecuta el archivo, deberías ver algo así:
-
-```js
-$ node comparisons.js
+$ node
+> true
 true
-true
-false
-true
-true
+> false
 false
 ```
 
-A los operadorres `<`, `>`, `<=`, `>=`, `==`, `!=` se les llama **operadores lógicos** y se caracterizan porque retornan un valor booleano: verdadero (`true`) o falso (`false`).
+También es posible escribir **expresiones** que evalúen a `true` o `false`. Escribe ahora las siguientes expresiones en la consola de NodeJS:
 
-Cómo ejercicio, agrégale a cada línea del ejemplo anterior un texto con su respectiva operación para que se vea de la siguiente forma cuando lo ejecutas:
+* `5 > 3`
+* `5 >= 3`
+* `4 < 4`
+* `4 <= 4`
+* `2 == 2`
+* `2 != 2`
+
+El resultado debería ser el siguiente:
 
 ```
-$ node comparisons.js
-5 > 3 es true
-5 >= 3 es true
-4 < 4 es false
-4 <= 4 es true
-2 == 2 es true
-2 != 2 es false
+$ node
+> 5 > 3
+true
+> 5 >= 3
+true
+> 4 < 4
+false
+> 4 <= 4
+true
+> 2 == 2
+true
+> 2 != 2
+false
 ```
+
+A los operadorres `<`, `>`, `<=`, `>=`, `==`, `!=` se les llama **operadores lógicos** y se utilizan para crear expresiones que se evalúan a un valor booleano: verdadero (`true`) o falso (`false`).

@@ -13,26 +13,15 @@ En este ejemplo estamos definiendo una variable con nombre `name` y le asignamos
 
 Las variables se crean con la palabra clave `var` seguido del nombre de la variable. Opcionalmente, le puedes asignar un valor a la variable utilizando el caracter igual y el valor que le quieras dar. El punto y coma (`;`) al final es opcional pero se considera una buena práctica tenerlo.
 
-El nombre de una variable debe comenzar con `$`, `_` o una letra, y después puede contener letras, dígitos, `_` y `$`. Ejemplos de nombres válidos son:
+El nombre de una variable debe comenzar con `$`, `_` o una letra, y después puede contener letras, dígitos, `_` y `$`. Ejemplos de nombres válidos de variables incluyen `name`, `$element` y `_trains`.
 
-```
-name
-$element
-_trains
-```
-
-Ejemplos de nombres inválidos son:
-
-```
-443german    // no puede comenzar con un número
-element&123  // el caracter & no es válido en el nombre
-```
+Por otro lado, ejemplos de nombres no válidos incluyen `443german`, porque no puede empezar con un número, y `element&123`, porque el caracter `&` no es válido en el nombre.
 
 Las palabras reservadas de JavaScript no se pueden usar como nombres de variables.
 
-Como buena práctica se recomienda empezar las variables con una letra en minúscula y, si el nombre se compone de varias palabras, capitalizar cada palabra después de la primera. Por ejemplo `videoTrascoder` o `firstName`.
+Como buena práctica se recomienda empezar las variables con una letra en minúscula y, si el nombre se compone de varias palabras, capitalizar cada palabra después de la primera. Por ejemplo `videoTranscoder` o `firstName`.
 
-Los nombres de las variables diferencian entre mayúsculas y minúsculas (p.e. `firstname` es diferente a `firstName`).
+Los nombres de las variables diferencian mayúsculas y minúsculas (p.e. `firstname` es diferente a `firstName`).
 
 ## La utilidad de las variables
 
@@ -45,7 +34,7 @@ console.log("El área de un cuadrado de lado 5 es " + (5 * 5));
 
 Al ejecutarlo debería aparecer lo siguiente:
 
-```js
+```
 $ node square.js
 El perímetro de un cuadrado de lado 5 es 20
 El área de un cuadrado de lado 5 es 25
@@ -62,9 +51,53 @@ console.log("El área de un cuadrado de lado " + side + " es " + (side * side));
 
 Si ejecutas el código te debería dar el mismo resultado. La ventaja es que si quieres calcular el perímetro y el área de un cuadrado con otro tamaño solo debes cambiar el valor de la variable. Intenta con 18 (te debería dar 72 de perímetro y 324 de área) y después con 39.
 
-## Cambiando el valor de las variables
+## Reasignando el valor de las variables
 
+Puedes reasignar el valor de una variable las veces que lo desees. La forma de hacerlo es similar a la forma en que se declara la una variable con un valor inicial, pero omitiendo la palabra `var`. Por ejemplo:
 
+```js
+// asumiendo que name fue ya declarada
+name = "Nuevo valor";
+```
+
+Inténtalo. Abre la consola de NodeJS e ingresa lo siguiente:
+
+```
+$ node
+> var name = "Pedro" // declaramos name y le asignamos el valor "Pedro"
+undefined
+> name               // verificamos el valor actual
+"Pedro"
+> name = 123         // reasignamos el valor de name con el número 123
+123
+> name               // verificamos cuál es el valor actual de name
+123
+```
+
+Fíjate que, como en este ejemplo, el nuevo valor que se le asigne a la variable no tiene que ser del mismo tipo del valor anterior.
+
+También es posible reasignar el valor de una variable utilizando su valor anterior. Por ejemplo, intenta lo siguiente:
+
+```
+$ node
+> var count = 1      // declaramos la variable con un valor inicial
+undefined
+> count              // verificamos cuál es el valor actual de count
+1
+> count = count + 1  // incrementamos en uno el valor actual de count
+2
+> count              // verificamos el valor actual de count
+2
+```
+
+De hecho, incrementar el valor de una variable es tan común que existe un atajo para eso. Asumiendo que sigues en la consola de NodeJS intenta lo siguiente:
+
+```
+> count++
+3
+> count++
+4
+```
 
 ## Variables sin valor
 
@@ -72,12 +105,12 @@ En programación es muy común declarar una variable sin un valor, quizá porque
 
 Una variable declarada sin un valor va a tener el valor de `undefined`.
 
-Abre la consola de NodeJS y escribe `var name;`, te debería aparecer la palabra `undefined debajo`:
+Abre la consola de NodeJS intenta lo siguiente:
 
 ```
 $ node
-> var name;
+> var name
+undefined
+> name
 undefined
 ```
-
-Si vuelves a escribir el nombre de la variable (ya no necesitas el `var`) vas a volver a ver `undefined`. Inténtalo!

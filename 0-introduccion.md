@@ -100,7 +100,7 @@ $ node
 >
 ```
 
-La consola de NodeJS nos permite escribir una expresión de JavaScript, oprimir Enter, y ver el resultado de esa expresión en la siguiente línea, muy parecido a cómo lo hicimos sobre la consola del navegador en la sección pasada.
+La consola de NodeJS nos permite escribir una **expresión** de JavaScript, oprimir Enter, y ver el resultado de esa expresión en la siguiente línea, muy parecido a cómo lo hicimos sobre la consola del navegador en la sección pasada.
 
 Por ejemplo, si escribimos `1+2` y oprimimos `Enter` debería mostrar `3` en la siguiente línea:
 
@@ -112,6 +112,8 @@ $ node
 ```
 
 Para salir de la consola oprime `Ctrl` + `D`.
+
+**Nota:** En JavaScript el punto y coma (`;`) al final de cada expresión es opcional. Cuando estemos trabajando en la consola de NodeJS los vamos a omitir. Sin embargo, cuando mostremos código que va a ir en un archivo los incluímos porque es una buena práctica.
 
 ### Desde un archivo
 
@@ -228,4 +230,4 @@ console.log("Hola Mundo");
 console.log("Esto está muy bacano");  
 ```
 
-Fíjate que la última línea del comentario es código JavaScript válido. Sin embargo, **ese código no se ejecuta porque está dentro de un comentario**.
+Fíjate que la última línea del comentario es código JavaScript válido. Sin embargo, **ese código no se ejecuta porque está como comentario**.
