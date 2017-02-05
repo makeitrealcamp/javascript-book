@@ -1,6 +1,6 @@
 # Tipos y Operadores
 
-En este capítulo vamos a hablar sobre cadenas de texto, números y booleanos (verdadero o falso), que son tipos de datos básicos en JavaScript, y cómo realizar algunas operaciones básicas con ellos. Empecemos con las cadenas de texto.
+En este capítulo vamos a hablar sobre cadenas de texto, números y booleanos (verdadero o falso), que son tipos de datos básicos en JavaScript, y cómo realizar algunas operaciones con ellos. Empecemos con las cadenas de texto.
 
 ## Cadenas de texto
 
@@ -11,7 +11,7 @@ Una cadena de texto es un conjunto de caracteres encerrados entre comillas simpl
 'Texto entre comillas simples'
 ```
 
-Eso es todo. Sin embargo, queremos mostrarte los tres errores más comunes que cometen los principiantes al definir una cadena de texto para que los tengas en cuenta y no los cometas:
+Aunque parece fácil, existen tres errores comunes que cometen los principiantes al definir una cadena de texto para que los tengas en cuenta e intentes evitarlos:
 
 1. Olvidarse de la comilla de cierre. Por ejemplo:
 
@@ -73,14 +73,14 @@ Y 'él dijo': "Hola mundo"
 Es posible unir cadenas de texto con el operador `+`. Por ejemplo, abre la consola de NodeJS y ejecuta lo siguiente:
 
 ```js
-console.log("Hola" + "Mundo" + "Cómo" + "Estás");
+"Hola" + "Mundo" + "Cómo" + "Estás"
 ```
 
 Deberías ver algo como esto:
 
 ```
 $ node
-> console.log("Hola" + "Mundo" + "Cómo" + "Estás");
+> "Hola" + "Mundo" + "Cómo" + "Estás"
 HolaMundoCómoEstás
 ```
 
@@ -89,8 +89,10 @@ Fíjate que las palabras no se separan con espacio automáticamente, tenemos que
 ```
 $ node
 > console.log("Hola " + "Mundo " + "Cómo " + "Estás");
-HolaMundoCómoEstás
+Hola Mundo Cómo Estás
 ```
+
+Debes tener cuidado al concatenar cadenas y números.
 
 En este momento la concatenación de cadenas no es muy útil porque hubiesemos podido escribir todo el texto `"Hola Mundo Cómo Estás"` dentro de una sola cadena, pero a medida que veamos otros conceptos se va a volver cada vez más importante.
 
@@ -155,8 +157,8 @@ También es posible escribir **expresiones** que evalúen a `true` o `false`. Es
 * `5 >= 3`
 * `4 < 4`
 * `4 <= 4`
-* `2 == 2`
-* `2 != 2`
+* `2 === 2`
+* `2 !== 2`
 
 El resultado debería ser el siguiente:
 
@@ -170,10 +172,28 @@ true
 false
 > 4 <= 4
 true
-> 2 == 2
+> 2 === 2
 true
-> 2 != 2
+> 2 !== 2
+false
+> "ruby" === "javascript"
+false
+> "ruby" !== "javascript"
+true
+```
+
+A los operadorres `<`, `>`, `<=`, `>=`, `===`, `!==` se les llama **operadores lógicos** y se utilizan para crear expresiones que se evalúan a un valor booleano: verdadero (`true`) o falso (`false`).
+
+En JavaScript existe el operador `==` y el `===` (así como el `!=` y `!==`). Veamos dos ejemplos para explicar la diferencia:
+
+```
+$ node
+> 1 == "1"
+true
+> 1 === "1"
 false
 ```
 
-A los operadorres `<`, `>`, `<=`, `>=`, `==`, `!=` se les llama **operadores lógicos** y se utilizan para crear expresiones que se evalúan a un valor booleano: verdadero (`true`) o falso (`false`).
+En los dos ejemplos estamos comparando el número `1` con la cadena de texto `"1"`. En la mayoría de lenguajes esto sería `false` porque son tipos diferentes, estamos comparando un número con una cadena de texto. Pero el `==` realiza una conversión de tipos primero y después evalúa la igualdad.
+
+**Nota:** Hoy el `==` y el `!=` se consideran mala práctica y de ahora en adelante utilizaremos el `===` y `!==` para hacer comparaciones.

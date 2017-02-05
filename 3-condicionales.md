@@ -89,13 +89,13 @@ if (num >= 10) {
 }
 ```
 
-Ejecuta el programa. Te debería dar el mismo resultado anterior. Cambia la variable a un número mayor a 10 e intenta nuevamente. Por último, intenta con un valor de 10. En los dos casos debería imprimir "El número es igual o mayor a 10".
+Ejecuta el programa e ingresa un número menor a 10, después un número mayor a 10, y por último 10. Verifica que el resultado sea el esperado.
 
 ## De lo contrario (else)
 
 Lo único que necesitas para hacer condicionales es el `if`. Pero existen dos atajos que te van a permitir escribir código más corto.
 
-El primer atajo es el `else`, que significa "de lo contrario" en Inglés. `else` nos permite escribir código que se debe ejecutar cuando la condición del `if` no se cumple (evalúa a falso). La sintaxis es la siguiente:
+El primer atajo es el `else`, que significa "de lo contrario" en Inglés. El `else` nos permite definir el código que se debe ejecutar si el `if` no se cumple, es decir si la condición evalúa a falso. La sintaxis es la siguiente:
 
 ```js
 if (<condición>) {
@@ -143,7 +143,7 @@ Prúebalo con un número menor a 10, otro mayor a 10 y con 10. Te debería apare
 
 ## De lo contrario, si (else if)
 
-En general, es preferible no tener que anidar condicionales porque son difíciles de leer y entender. Otro atajo que nos ofrece JavaScript para los condicionales condicionales es el `else if`, que significa "De lo contrario, si ..." en Inglés. La sintaxis es la siguiente:
+En general, es preferible no tener que anidar condicionales porque son difíciles de leer y entender. Otro atajo que nos ofrece JavaScript para los condicionales es el `else if`, que significa "De lo contrario, si ..." en Inglés. La sintaxis es la siguiente:
 
 ```js
 if (<primera condición>) {
@@ -157,7 +157,9 @@ if (<primera condición>) {
 }
 ```
 
-Podemos modificar nuestro ejemplo anterior y en vez de utilizar condiciones anidadas, utilizamos `else if`:
+Puedes definir tantos `elsif` como desees. El `else` es opcional.
+
+Modifiquemos nuestro ejemplo anterior y en vez de utilizar condiciones anidadas, utilicemos `else if`:
 
 ```js
 var num = 8;
@@ -204,7 +206,7 @@ if (num >= 10 && num <= 20) {
 
 Lo que estamos diciendo con este código es: si el número es **mayor o igual a 10 y menor o igual 20** entonces imprima "El número está entre 10 y 20". Fíjate que a cada lado del `&&` hay una expresión que evalúa a verdadero o falso: `num >= 10` y `num <= 20`.
 
-Imagina ahora que necesitamos escribir un programa imprima "Excelente elección" cuando el valor de una variable sea "rojo" **ó** "negro" únicamente:
+Imagina ahora que necesitamos escribir un programa que imprima "Excelente elección" cuando el valor de una variable sea "rojo" **o** "negro" únicamente:
 
 ```js
 var color = "negro";
@@ -214,11 +216,11 @@ if (color === "rojo" || color === "negro") {
 }
 ```
 
-## Tablas de verdad
+## Pensando como un programador
 
 Vamos a jugar un juego llamado **Verdadero o Falso**. Yo digo una afirmación y tu debes reponder si es verdadera o falsa. Trata de no mirar las respuestas debajo. Después comparas:
 
-1. La Tierra gira alrededor del sol.
+1. La Tierra gira alrededor del sol. (¿Verdadero o falso?)
 2. Paris es la capital de Estados Unidos.
 3. La Tierra gira alrededor del sol **y** los leones son animales.
 4. Paris es la capital de Estados Unidos **y** los leones son animales.
@@ -240,7 +242,9 @@ Las respuestas son las siguientes:
 
 Cuando utilizamos **y** las dos expresiones deben ser verdaderas para que el resultado sea verdadero. Cuando utilizamos **o** cualquiera de las dos expresiones puede ser verdadera para que el resultado sea verdadero.
 
-Volvamos a jugar el juego, pero en vez de utilizar frases, utilicemos expresiones booleanas. Debes decidir si una expresión es verdadera o falsa (escribe `true` o `false`):
+## Evaluando expresiones booleanas
+
+Volvamos a jugar el juego, pero en vez de utilizar frases, utilicemos expresiones booleanas. Debes decidir si cada una de las siguientes expresiones es verdadera o falsa (`true` o `false`):
 
 1. `true`
 2. `false`
@@ -248,7 +252,7 @@ Volvamos a jugar el juego, pero en vez de utilizar frases, utilicemos expresione
 4. `2 != 3`
 5. `1 < 1 && 2 != 3`
 
-Copia y pega cada expresión en la consola de NodeJS para ver las respuestas.
+Copia y pega cada expresión en la consola de NodeJS para conocer las respuestas.
 
 Analicemos la última expresión: `1 < 1 && 2 != 3`. ¿Cómo podemos saber si es verdadera o falsa?
 
