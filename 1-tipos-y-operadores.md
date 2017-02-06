@@ -197,3 +197,25 @@ false
 En los dos ejemplos estamos comparando el número `1` con la cadena de texto `"1"`. En la mayoría de lenguajes esto sería `false` porque son tipos diferentes, estamos comparando un número con una cadena de texto. Pero el `==` realiza una conversión de tipos primero y después evalúa la igualdad.
 
 **Nota:** Hoy el `==` y el `!=` se consideran mala práctica y de ahora en adelante utilizaremos el `===` y `!==` para hacer comparaciones.
+
+## Evalúate
+
+1. ¿Cuál es el problema con la siguiente cadena de texto y de qué formas lo podríamos solucionar?
+
+   ```
+   "Palabras: "Agua", "Tierra""
+   ```
+
+2. ¿Cuál sería el resultado de la siguiente expresión?
+
+   ```
+   3 + "3"
+   ```
+
+3. ¿Qué problema tiene el siguiente código y cómo lo podemos solucionar para que evalúe a `true`?
+
+   ```
+   3 = 3
+   ```
+
+4. ¿Cuál es la diferencia entre `==` y `===` en JavaScript?

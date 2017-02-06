@@ -231,3 +231,17 @@ console.log("Esto está muy bacano");
 ```
 
 Fíjate que la última línea del comentario es código JavaScript válido. Sin embargo, **ese código no se ejecuta porque está como comentario**.
+
+## Evalúate
+
+Al final de cada capítulo encontrarás algunas preguntas sobre los conceptos más importantes. No te preocupes si tienes que repasar el capítulo para encontrar las respuestas. Lo que sí te recomendamos es que escribas las respuestas en alguna parte (no importa si es en papel o digitalmente) para que afiances los conceptos.
+
+1. ¿Qué es NodeJS?
+
+2. Nombre al menos 2 formas en las que podemos ejecutar código JavaScript.
+
+3. ¿Cómo imprimimos "Me gusta JavaScript!" desde un archivo de texto?
+
+4. ¿Cómo se ejecuta un archivo de JavaScript en NodeJS?
+
+5. ¿Cómo se pueden definir comentarios en JavaScript?

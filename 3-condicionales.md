@@ -346,3 +346,41 @@ Inténtalo tu. Decide si las siguientes expresiones evalúan a `true` o `false`:
 * `!(5 === 5) && 8 !== 8`
 * `("gut" === "ikk" && 26 > 30) || ("gut" === "gut" && 26 > 10)`
 * `!("testing" == "testing" && !(5 > 8))`
+
+## Evalúate
+
+1. ¿Cuál es la syntaxis de un `if` (sin `else` o `else if`)?
+
+2. ¿En qué caso se ejecuta el código que está dentro del `if`?
+
+3. ¿En qué caso se ejecuta el código que está dentro del `else`?
+
+4. ¿Cuántos `else` pueden existir en un condicional?
+
+5. ¿Cuántos `else if` pueden existir en un condicional?
+
+6. ¿Qué problema tiene el siguiente código?
+
+   ```js
+   if (num >= 10 && <= 20) {
+     console.log("El número está entre 10 y 20");
+   }
+   ```
+
+7. ¿Cuál es el resultado de evaluar `!(1 == 1)`?
+
+8. ¿Cuál es el resultado de evaluar `3 != 4 && !("pedro" === "juan" || 26 > 10)`?
+
+9. ¿Qué imprimiría el siguiente código?
+
+   ```js
+   var raza = "Persa";
+   var ojos = "verdes";
+   var edad = 3;
+
+   if (ojos == "rojos" || (edad > 2 && edad < 5)) {
+     console.log("Me lo llevo!");
+   } else {
+     console.log("Paso!");
+   }
+   ```

@@ -114,3 +114,11 @@ undefined
 > name
 undefined
 ```
+
+## ¿Dónde y cuánto vive una variable?
+
+Las variables se almacenan en en una memoria especial del computador llamada **memoria RAM** y viven durante la ejecución del programa, es decir, desde el momento en que las defines hasta que tu programa termina de ejecutarse. Si abres la consola de NodeJS y defines una variable, esta vive hasta que cierres esa sesión.
+
+La **memoria RAM** es una memoría de rápido acceso que está disponible mientras tu computador está encendido. El sistema operativo se encarga de administrar la memoria RAM y asignarle una porción a cada programa que se está ejecutando. Cuando el programa termina, el sistema operativo reclama esa memoria y "destruye" todas las variables que ese programa haya creado.
+
+**Nota:** Más adelante, cuando veamos funciones, aprenderemos que las variables tienen un **alcance** y no todas las variables sobreviven hasta que termina el programa.
