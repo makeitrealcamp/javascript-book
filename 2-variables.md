@@ -122,3 +122,30 @@ Las variables se almacenan en en una memoria especial del computador llamada **m
 La **memoria RAM** es una memoría de rápido acceso que está disponible mientras tu computador está encendido. El sistema operativo se encarga de administrar la memoria RAM y asignarle una porción a cada programa que se está ejecutando. Cuando el programa termina, el sistema operativo reclama esa memoria y "destruye" todas las variables que ese programa haya creado.
 
 **Nota:** Más adelante, cuando veamos funciones, aprenderemos que las variables tienen un **alcance** y no todas las variables sobreviven hasta que termina el programa.
+
+## Evalúate
+
+1. El siguiente código no está imprimiendo el texto esperado, que debería ser `"Hola Germán"`. ¿Cuál es el problema y cómo lo podrías solucionar?
+
+   ```js
+   var name = "Germán";
+   console.log("Hola name");
+	 ```
+
+2. ¿Cuál es la utilidad de las variables?
+
+3. ¿Cuál es la diferencia entre doble igual (`==`) y triple igual (`===`)? ¿Cuál se recomienda usar?
+
+4. ¿Cuál es el problema con el siguiente código?
+
+   ```js
+   var 5park = "Parque 5";
+	 ```
+
+5. ¿Dónde y cuánto vive una variable?
+
+6. ¿Con qué valor queda una variable declarada de la siguiente forma?
+
+   ```js
+   var name;
+   ```
