@@ -3,7 +3,7 @@
 * [Tipos y Operadores](1-tipos-y-operadores.md)
 * [Variables](2-variables.md)
 * [Condicionales](3-condicionales.md)
-* [Iteraciones](4-iteraciones.md)
+* [Iteraciones](4-ciclos.md)
 * [Arreglos](5-arreglos.md)
 * [Más cadenas](6-cadenas.md)
 * [Funciones](7-funciones.md)

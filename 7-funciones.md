@@ -18,7 +18,7 @@ Si ejecutamos este código no aparece nada en la pantalla:
 $ node methods.js
 ```
 
-Una característica de les funciones es que no son ejecutadas hasta que no los **invoquemos**. Modifiquemos nuestro programa para invocarla:
+Una característica de las funciones es que no son ejecutadas hasta que no las **invoquemos**. Modifiquemos nuestro programa para invocarla:
 
 ```js
 function hello() {
@@ -28,7 +28,7 @@ function hello() {
 hello(); // acá la estamos invocamos
 ```
 
-En la última línea lo estamos invocando. Si lo ejecutas ahora si debería aparecer "Hola mundo":
+En la última línea la estamos invocando. Si lo ejecutas ahora si debería aparecer "Hola mundo":
 
 ```
 $ node methods.js
@@ -102,7 +102,7 @@ Lo que debes tener en cuenta:
 
 * La función se crea con la palabra clave `function`.
 
-* El nombre de la función
+* El nombre de la función tiene las mismas reglas de nombramiento que las variables: debe comenzar con `$`, `_` o una letra, y después puede contener letras, dígitos, `_` y `$`.
 
 * La función puede tener cero o más parámetros dentro de los paréntesis que van después del nombre.
 

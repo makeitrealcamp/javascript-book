@@ -100,3 +100,13 @@ El método `splice` recibe uno o dos argumentos cuando quieres eliminar elemento
 var array = ["Pedro", "Germán", "Diana"];
 array.splice(0); // []
 ```
+
+## Evalúate
+
+1. Define un arreglo con los siguientes elementos y almacénalo en una variable llamada `arr`: `"Hola"`, `"Mundo"`, 3, `"veces"`.
+
+2. Escribe un programa que recorra el arreglo que definiste en el punto anterior y muestre la frase: `"El valor en la posición x es y"` donde `x` es la posición (empezando en 0) y `y` el valor del elemento.
+
+3. ¿Cuáles es la forma de insertar un elemento en un arreglo?
+
+4. ¿Cómo se puede eliminar un elemento de una posición específica del arreglo?
