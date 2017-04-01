@@ -109,7 +109,7 @@ console.log(8 / 2)
 Si lo ejecutas deberías ver algo así:
 
 ```
-$ node numbers.rb
+$ node numbers.js
 3
 17
 4

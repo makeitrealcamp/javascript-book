@@ -158,3 +158,15 @@ Puedes reemplazar un trozo de la cadena por otro con el método `replace`:
 > "Hola Mundo".replace("Mundo", "Germán")
 'Hola Germán'
 ```
+
+## Evalúate
+
+1. ¿Cómo puedo obtener la longitud de la cadena `"Hola Mundo"`?
+
+2. ¿Cómo puedo obtener la tercera posición de la cadena `"Hola Mundo"`? Debería ser la `l`.
+
+3. ¿Cuál es el método que se utiliza para partir cadenas? ¿Qué retorna ese método?
+
+4. ¿Cuál es el método que se utiliza para unir las posiciones de un arreglo? ¿Qué retorna ese método?
+
+5. ¿Cuál es el método que se utiliza para reemplazar parte de la cadena por otra?

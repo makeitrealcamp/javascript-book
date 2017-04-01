@@ -8,7 +8,7 @@ Por último, nuestra recomendación es que transcribas y ejecutes cada uno de lo
 
 ## Requisitos
 
-Para sacar el mayor provecho de este libro necesitas saber qué es la línea de comandos (también conocida como consola, terminal o símbolo del sitema), cómo abrirla y cómo navegar por las carpetas de tu computador. Si aún no estás familiarizado con la línea de comandos te recomendamos [este post en el blog de Make it Real](http://blog.makeitreal.camp/la-linea-de-comandos/) que te brinda una introducción y te indica algunos recursos que puedes consultar si quieres más información.
+Para sacar el mayor provecho de este libro necesitas saber qué es la línea de comandos (también conocida como consola, terminal o símbolo del sistema), cómo abrirla y cómo navegar por las carpetas de tu computador. Si aún no estás familiarizado con la línea de comandos te recomendamos [este post en el blog de Make it Real](http://blog.makeitreal.camp/la-linea-de-comandos/) que te brinda una introducción y te indica algunos recursos que puedes consultar si quieres más información.
 
 Para seguir los ejemplos de este libro vas a necesitar tener instalado [NodeJS](https://nodejs.org/en/) y un editor de texto como [Atom](https://atom.io/), [Sublime Text](https://www.sublimetext.com/) o el de tu preferencia. Si no tienes un editor de preferencia nuestra recomendación es que instales [Atom](https://atom.io/).
 
@@ -200,7 +200,7 @@ console.log("Hola Mundo");
 console.log("Esto está muy bacano");
 ```
 
-El ejecutar el archivo deberías ver el sguiente resultado:
+El ejecutar el archivo deberías ver el siguiente resultado:
 
 ```
 $ node app.js
