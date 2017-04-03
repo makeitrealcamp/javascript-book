@@ -157,7 +157,7 @@ if (<primera condición>) {
 }
 ```
 
-Puedes definir tantos `elsif` como desees. El `else` es opcional.
+Puedes definir tantos `else if` como desees. El `else` es opcional.
 
 Modifiquemos nuestro ejemplo anterior y en vez de utilizar condiciones anidadas, utilicemos `else if`:
 
