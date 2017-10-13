@@ -11,7 +11,7 @@ Una cadena de texto es un conjunto de caracteres encerrados entre comillas simpl
 'Texto entre comillas simples'
 ```
 
-Aunque parece fácil, existen tres errores comunes que cometen los principiantes al definir una cadena de texto para que los tengas en cuenta e intentes evitarlos:
+Aunque parece fácil, existen tres errores comunes al definir una cadena de texto para que los tengas en cuenta e intentes evitarlos:
 
 1. Olvidarse de la comilla de cierre. Por ejemplo:
 

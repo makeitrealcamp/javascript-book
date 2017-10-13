@@ -10,7 +10,7 @@ function hello() {
 }
 ```
 
-Para definir un método usamos la palabra reservada `function`, le damos un nombre (en este caso `hello`), abrimos y cerramos paréntesis (`()`). Después abrimos corchetes (`{`), escribimos el cuerpo de la función (el código que queremos ejecutar cuando sea invocada), y por último cerramos los corchetes `}`.
+Para definir una función usamos la palabra reservada `function`, le damos un nombre (en este caso `hello`), abrimos y cerramos paréntesis (`()`). Después abrimos corchetes (`{`), escribimos el cuerpo de la función (el código que queremos ejecutar cuando sea invocada), y por último cerramos los corchetes `}`.
 
 Si ejecutamos este código no aparece nada en la pantalla:
 
