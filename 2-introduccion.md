@@ -6,20 +6,16 @@ En este capítulo vamos a ver cómo ejecutar código JavaScript tanto en el nave
 
 Por último, nuestra recomendación es que transcribas y ejecutes cada uno de los ejemplos de este libro en tu computador e intentes solucionar cada uno de los ejercicios de forma que aceleres tu aprendizaje. Recuerda que la mejor forma de aprender sobre programación es escribiendo código.
 
-## Requisitos
+## Instalación de NodeJS
 
-Para sacar el mayor provecho de este libro necesitas saber qué es la línea de comandos (también conocida como consola, terminal o símbolo del sistema), cómo abrirla y cómo navegar por las carpetas de tu computador. Si aún no estás familiarizado con la línea de comandos te recomendamos [este post en el blog de Make it Real](http://blog.makeitreal.camp/la-linea-de-comandos/) que te brinda una introducción y te indica algunos recursos que puedes consultar si quieres más información.
-
-Para seguir los ejemplos de este libro vas a necesitar tener instalado [NodeJS](https://nodejs.org/en/) y un editor de texto como [Atom](https://atom.io/), [Sublime Text](https://www.sublimetext.com/) o el de tu preferencia. Si no tienes un editor de preferencia nuestra recomendación es que instales [Atom](https://atom.io/).
-
-Aunque lo más probable es que aún no tengas instalado [NodeJS](https://nodejs.org/en/) en tu máquina, verifica igual abriendo una línea de comandos y ejecutando `node -v`. Si ya lo tienes te va a aparecer una línea similar a la siguiente:
+Para seguir los ejemplos de este libro vas a necesitar instalar [NodeJS](https://nodejs.org/en/). Puedes verificar si ya está instalado en tu máquina abriendo una línea de comandos y ejecutando `node -v`. Si está instalado debería aparecer una línea similar a la siguiente:
 
 ```
 $ node -v
-v7.0.2
+v8.5.0
 ```
 
-La versión puede ser diferente, y cualquier versión mayor a 5.0.0 está bien.
+La versión puede ser diferente, y cualquier versión mayor a 6.0.0 está bien.
 
 Si ves un mensaje diciendo que el comando no fue encontrado, significa que aún no lo tienes instalado. Puedes encontrar las instrucciones para instalarlo en el siguiente enlace: https://github.com/makeitrealcamp/node-installation.
 
