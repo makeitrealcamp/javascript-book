@@ -1,6 +1,6 @@
 * [Inicio](README.md)
 * [El editor de texto](0-editor-de-texto.md)
-* [La línea de comandos](1-la-linea-de-comandos.md)
+* [La línea de comandos](1-linea-de-comandos.md)
 * [Primeros pasos](2-introduccion.md)
 * [Tipos y Operadores](3-tipos-y-operadores.md)
 * [Variables](4-variables.md)
