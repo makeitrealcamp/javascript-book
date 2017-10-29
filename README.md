@@ -10,7 +10,18 @@ Aunque existe una multitud de recursos en Internet sobre JavaScript, no existía
 
 Esta introducción a JavaScript está dirigida a **no programadores**. En vez de ser una referencia completa del lenguaje, nuestro propósito es que el lector pueda adquirir el conocimiento necesario para empezar a solucionar ejercicios y continuar su aprendizaje.
 
+## ¿Cómo está estructurado este libro?
+
+En los dos primeros capítulos veremos una introducción al editor de texto y la línea de comandos, dos herramientas básicas que debes conocer para aprender no solo JavaScript, sino cualquier lenguaje de programación. Sin embargo, si ya estás familiarizado con estas herramientas puedes saltarte estos dos capítulos sin problema.
+
+En los siguientes capítulos nos concentraremos en cada una de las características básicas del lenguaje: tipos y operadores, variables, condicionales, ciclos, arreglos, etc. En los últimos capítulos aprenderás cómo leer y escribir archivos, a utilizar librerías y los próximos pasos que puedes tomar en tu aprendizaje.
+
+Al final de cada capítulo encontrarás algunas preguntas y ejercicios para que te auto-evalúes. No te preocupes si tienes que repasar el capítulo para encontrar las respuestas o buscar en Internet, de eso se trata.
+
+---
+
 Esperamos que este libro sea útil y le ayude a muchas personas a dar esos primeros pasos en el mundo de la programación.
+
 
 <br>
 Germán Escobar<br>
