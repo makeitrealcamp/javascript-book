@@ -252,7 +252,7 @@ Volvamos a jugar el juego, pero en vez de utilizar frases, utilicemos expresione
 4. `2 != 3`
 5. `1 < 1 && 2 != 3`
 
-Copia y pega cada expresión en la consola de NodeJS para conocer las respuestas.
+Copia y pega cada expresión en la consola de Node.js para conocer las respuestas.
 
 Analicemos la última expresión: `1 < 1 && 2 != 3`. ¿Cómo podemos saber si es verdadera o falsa?
 
@@ -290,7 +290,7 @@ Hagamos algunos ejercicios. Decide si las siguientes expresiones evalúan a `tru
 * `true && 5 != 5`
 * `1 == 1 || 2 != 1`
 
-Revisa tu respuesta evaluando cada expresión en la consola de NodeJS.
+Revisa tu respuesta evaluando cada expresión en la consola de Node.js.
 
 Podemos negar cualquier expresión booleana anteponiendo un signo de exclamación (`!`). Por ejemplo:
 

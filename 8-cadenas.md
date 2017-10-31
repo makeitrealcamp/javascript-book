@@ -4,7 +4,7 @@ Las cadenas de texto (strings) son uno de los tipos de datos más importantes en
 
 ## Obteniendo la longitud de una cadena
 
-Abre la consola de NodeJS y escribe `"hola".length`:
+Abre la consola de Node.js y escribe `"hola".length`:
 
 ```
 $ node
@@ -30,7 +30,7 @@ Ten en cuenta que los espacios también cuentan en la longitud de la cadena:
 
 ## Recorriendo cadenas
 
-Puedes obtener los caracteres de una posición específica igual que con los arreglos. Por ejemplo, desde la consola de NodeJS:
+Puedes obtener los caracteres de una posición específica igual que con los arreglos. Por ejemplo, desde la consola de Node.js:
 
 ```
 $ node
@@ -58,7 +58,7 @@ for (var i=0; i < str.length; i++) {
 
 ## Partiendo cadenas
 
-En ocasiones es útil convertir una cadena en un arreglo. Para eso podemos utilizar el método `split` que nos permite dividir una cadena de diferentes formas. Abre la consola de NodeJS y ejecuta lo siguiente:
+En ocasiones es útil convertir una cadena en un arreglo. Para eso podemos utilizar el método `split` que nos permite dividir una cadena de diferentes formas. Abre la consola de Node.js y ejecuta lo siguiente:
 
 ```
 $ node

@@ -2,7 +2,7 @@
 
 Hasta ahora hemos trabajado con cadenas de texto, números y booleanos. En este capítulo vamos a hablar de un nuevo tipo de datos: los arreglos.
 
-Un arreglo es una lista ordenada de elementos de cualquier tipo. Para crear tu primer arreglo abre la consola de NodeJS y escribe lo siguiente:
+Un arreglo es una lista ordenada de elementos de cualquier tipo. Para crear tu primer arreglo abre la consola de Node.js y escribe lo siguiente:
 
 ```js
 var array = [1, "Pedro", true, false, "Juan"]

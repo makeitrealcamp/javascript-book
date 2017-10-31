@@ -1,6 +1,6 @@
 # Manipulación de archivos
 
-En NodeJS es posible manipular archivos (crear, leer, modificar, mover, etc.). En este capítulo vamos a ver tres de estas operaciones: leer, escribir y verificar si un archivo o carpeta existe.
+En Node.js es posible manipular archivos (crear, leer, modificar, mover, etc.). En este capítulo vamos a ver tres de estas operaciones: leer, escribir y verificar si un archivo o carpeta existe.
 
 **Nota:** Ten en cuenta que esto sólo aplica para Node.js, desde el navegador **no** es posible manipular archivos, sería muy inseguro.
 

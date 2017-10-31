@@ -2,7 +2,7 @@
 
 Las variables son uno de los conceptos básicos de la programación y nos permiten almacenar información temporal que podemos usar más adelante en nuestros programas.
 
-Crea un archivo llamado `variables.rb` y agrega lo siguiente:
+Crea un archivo llamado `variables.js` y agrega lo siguiente:
 
 ```js
 var name = "Germán"; // cámbialo por tu nombre
@@ -60,7 +60,7 @@ Puedes reasignar el valor de una variable las veces que lo desees. La forma de h
 name = "Nuevo valor";
 ```
 
-Inténtalo. Abre la consola de NodeJS e ingresa lo siguiente:
+Inténtalo. Abre la consola de Node.js e ingresa lo siguiente:
 
 ```
 $ node
@@ -90,7 +90,7 @@ undefined
 2
 ```
 
-De hecho, incrementar el valor de una variable es tan común que existe un atajo para eso. Asumiendo que sigues en la consola de NodeJS intenta lo siguiente:
+De hecho, incrementar el valor de una variable es tan común que existe un atajo para eso. Asumiendo que sigues en la consola de Node.js intenta lo siguiente:
 
 ```
 > count++
@@ -105,7 +105,7 @@ En programación es muy común declarar una variable sin un valor, quizá porque
 
 Una variable declarada sin un valor va a tener el valor de `undefined`.
 
-Abre la consola de NodeJS intenta lo siguiente:
+Abre la consola de Node.js intenta lo siguiente:
 
 ```
 $ node
@@ -117,7 +117,7 @@ undefined
 
 ## ¿Dónde y cuánto vive una variable?
 
-Las variables se almacenan en en una memoria especial del computador llamada **memoria RAM** y viven durante la ejecución del programa, es decir, desde el momento en que las defines hasta que tu programa termina de ejecutarse. Si abres la consola de NodeJS y defines una variable, esta vive hasta que cierres esa sesión.
+Las variables se almacenan en en una memoria especial del computador llamada **memoria RAM** y viven durante la ejecución del programa, es decir, desde el momento en que las defines hasta que tu programa termina de ejecutarse. Si abres la consola de Node.js y defines una variable, esta vive hasta que cierres esa sesión.
 
 La **memoria RAM** es una memoría de rápido acceso que está disponible mientras tu computador está encendido. El sistema operativo se encarga de administrar la memoria RAM y asignarle una porción a cada programa que se está ejecutando. Cuando el programa termina, el sistema operativo reclama esa memoria y "destruye" todas las variables que ese programa haya creado.
 

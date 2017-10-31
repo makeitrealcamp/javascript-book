@@ -2,7 +2,7 @@
 
 La **línea de comandos** (también conocida como consola, terminal o símbolo del sistema) era la única forma de interactuar con un computador antes que aparecieran las interfaces gráficas.
 
-![La línea de comandos](https://blog.makeitreal.camp/images/cli.jpg)
+![La línea de comandos](https://blog.makeitreal.camp/assets/images/cli.jpg)
 
 La **línea de comandos** es una aplicación en la que puedes escribir y ejecutar comandos para realizar tareas como:
 

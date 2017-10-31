@@ -70,7 +70,7 @@ Y 'él dijo': "Hola mundo"
 
 ### Concatenando cadenas
 
-Es posible unir cadenas de texto con el operador `+`. Por ejemplo, abre la consola de NodeJS y ejecuta lo siguiente:
+Es posible unir cadenas de texto con el operador `+`. Por ejemplo, abre la consola de Node.js y ejecuta lo siguiente:
 
 ```js
 "Hola" + "Mundo" + "Cómo" + "Estás"
@@ -117,7 +117,7 @@ $ node numbers.js
 
 Fíjate en la segunda línea del ejemplo. JavaScript sigue el mismo estandar que en matemáticas, y por lo tanto la multiplicación se ejecuta primero que la suma. Puedes cambiar el comportamiento con paréntesis. Por ejemplo, cambia la operación de la segunda línea por `3 * (4 + 5)`. El resultado ahora debería ser `27`.
 
-A diferencia de las cadenas de texto, los números **no** se encierran entre comillas de ninún tipo (de lo contrario JavaScript los trata como texto y no como números). Por ejemplo, abre la consola de NodeJS y escribe `"1" + "2"`. El resultado ya no es `3`, es la cadena de texto `"12"`:
+A diferencia de las cadenas de texto, los números **no** se encierran entre comillas de ninún tipo (de lo contrario JavaScript los trata como texto y no como números). Por ejemplo, abre la consola de Node.js y escribe `"1" + "2"`. El resultado ya no es `3`, es la cadena de texto `"12"`:
 
 ```
 $ node
@@ -125,7 +125,7 @@ $ node
 '12'
 ```
 
-**Debes tener cuidado al concatenar cadenas y hacer sumas**, porque los dos utilizan el mismo operador `+`. Por ejemplo, intenta lo siguiente en la consola de NodeJS:
+**Debes tener cuidado al concatenar cadenas y hacer sumas**, porque los dos utilizan el mismo operador `+`. Por ejemplo, intenta lo siguiente en la consola de Node.js:
 
 ```
 $ node
@@ -141,7 +141,7 @@ En el segundo ejemplo JavaScript realiza primero la operación `(1 + 2)`, que da
 
 ### Valores y expresiones booleanas
 
-Existen dos valores booleanos en programación: verdadero (`true`) y falso (`false`). Abre la consola de NodeJS, escribe `true` y oprime Enter, después escribe `false` y oprime Enter. El resultado debe ser el siguiente:
+Existen dos valores booleanos en programación: verdadero (`true`) y falso (`false`). Abre la consola de Node.js, escribe `true` y oprime Enter, después escribe `false` y oprime Enter. El resultado debe ser el siguiente:
 
 ```
 $ node
@@ -151,7 +151,7 @@ true
 false
 ```
 
-También es posible escribir **expresiones** que evalúen a `true` o `false`. Escribe ahora las siguientes expresiones en la consola de NodeJS:
+También es posible escribir **expresiones** que evalúen a `true` o `false`. Escribe ahora las siguientes expresiones en la consola de Node.js:
 
 * `5 > 3`
 * `5 >= 3`

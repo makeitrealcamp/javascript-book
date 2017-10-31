@@ -2,13 +2,13 @@
 
 En este libro vas a aprender las bases de JavaScript, que te serán útiles sin importar qué camino desees tomar más adelante, ya sea convertirte en Desarrollador Front End, Backend y/o Móvil.
 
-En este capítulo vamos a ver cómo ejecutar código JavaScript tanto en el navegador como en [NodeJS](https://nodejs.org/en/), pero para la mayoría de ejemplos más adelante nos vamos a concentrar en [NodeJS](https://nodejs.org/en/) únicamente. La razón es que, incluso si tu objetivo es convertirte en Desarrollador Front End, vas a necesitar [NodeJS](https://nodejs.org/en/) para automatizar tareas de desarrollo y definir dependencias a librerías que utilices desde tus proyectos, así que vale la pena familiarizarse con esta plataforma desde ahora.
+En este capítulo vamos a ver cómo ejecutar código JavaScript tanto en el navegador como en [Node.js](https://nodejs.org/en/), pero para la mayoría de ejemplos más adelante nos vamos a concentrar en [Node.js](https://nodejs.org/en/) únicamente. La razón es que, incluso si tu objetivo es convertirte en Desarrollador Front End, vas a necesitar [Node.js](https://nodejs.org/en/) para automatizar tareas de desarrollo y definir dependencias a librerías que utilices desde tus proyectos, así que vale la pena familiarizarse con esta plataforma desde ahora.
 
 Por último, nuestra recomendación es que transcribas y ejecutes cada uno de los ejemplos de este libro en tu computador e intentes solucionar cada uno de los ejercicios de forma que aceleres tu aprendizaje. Recuerda que la mejor forma de aprender sobre programación es escribiendo código.
 
-## Instalación de NodeJS
+## Instalación de Node.js
 
-Para seguir los ejemplos de este libro vas a necesitar instalar [NodeJS](https://nodejs.org/en/). Puedes verificar si ya está instalado en tu máquina abriendo una línea de comandos y ejecutando `node -v`. Si está instalado debería aparecer una línea similar a la siguiente:
+Para seguir los ejemplos de este libro vas a necesitar instalar [Node.js](https://nodejs.org/en/). Puedes verificar si ya está instalado en tu máquina abriendo una línea de comandos y ejecutando `node -v`. Si está instalado debería aparecer una línea similar a la siguiente:
 
 ```
 $ node -v
@@ -19,7 +19,7 @@ La versión puede ser diferente, y cualquier versión mayor a 6.0.0 está bien.
 
 Si ves un mensaje diciendo que el comando no fue encontrado, significa que aún no lo tienes instalado. Puedes encontrar las instrucciones para instalarlo en el siguiente enlace: https://github.com/makeitrealcamp/node-installation.
 
-Una vez que tengas instalado [NodeJS](https://nodejs.org/en/) y lo hayas verificado, continúa. En las siguientes secciones vamos a ver cómo ejecutar código JavaScript tanto en el navegador como en [NodeJS](https://nodejs.org/en/).
+Una vez que tengas instalado [Node.js](https://nodejs.org/en/) y lo hayas verificado, continúa. En las siguientes secciones vamos a ver cómo ejecutar código JavaScript tanto en el navegador como en [Node.js](https://nodejs.org/en/).
 
 ## Ejecutando JavaScript en el navegador
 
@@ -83,20 +83,20 @@ Ahora modifica `index.html` con el siguiente contenido:
 
 Ábrelo nuevamente con un navegador o refresca la página si ya lo tenías abierto. Deberías ver una alerta pero ahora con el texto "Hola Amigo".
 
-## Ejecutando código en NodeJS
+## Ejecutando código en Node.js
 
-Existen dos formas de ejecutar código JavaScript en [NodeJS](https://nodejs.org/en/): desde la consola de NodeJS o desde un archivo.
+Existen dos formas de ejecutar código JavaScript en [Node.js](https://nodejs.org/en/): desde la consola de Node.js o desde un archivo.
 
-### La consola de NodeJS
+### La consola de Node.js
 
-Para abrir la consola de NodeJS ejecuta el siguiente comando desde la línea de comandos:
+Para abrir la consola de Node.js ejecuta el siguiente comando desde la línea de comandos:
 
 ```
 $ node
 >
 ```
 
-La consola de NodeJS nos permite escribir una **expresión** de JavaScript, oprimir Enter, y ver el resultado de esa expresión en la siguiente línea, muy parecido a cómo lo hicimos sobre la consola del navegador en la sección pasada.
+La consola de Node.js nos permite escribir una **expresión** de JavaScript, oprimir Enter, y ver el resultado de esa expresión en la siguiente línea, muy parecido a cómo lo hicimos sobre la consola del navegador en la sección pasada.
 
 Por ejemplo, si escribimos `1+2` y oprimimos `Enter` debería mostrar `3` en la siguiente línea:
 
@@ -109,11 +109,11 @@ $ node
 
 Para salir de la consola oprime `Ctrl` + `D`.
 
-**Nota:** En JavaScript el punto y coma (`;`) al final de cada expresión es opcional. Cuando estemos trabajando en la consola de NodeJS los vamos a omitir. Sin embargo, cuando mostremos código que va a ir en un archivo los incluímos porque es una buena práctica.
+**Nota:** En JavaScript el punto y coma (`;`) al final de cada expresión es opcional. Cuando estemos trabajando en la consola de Node.js los vamos a omitir. Sin embargo, cuando mostremos código que va a ir en un archivo los incluímos porque es una buena práctica.
 
 ### Desde un archivo
 
-La otra forma de ejecutar código JavaScript en [NodeJS](https://nodejs.org/en/) es crear un archivo con extensión `js` en el que escribimos nuestro código y lo ejecutamos con el comando `node`.
+La otra forma de ejecutar código JavaScript en [Node.js](https://nodejs.org/en/) es crear un archivo con extensión `js` en el que escribimos nuestro código y lo ejecutamos con el comando `node`.
 
 Crea un archivo llamado `app.js`, ábrelo con tu editor favorito y pega el siguiente contenido:
 
@@ -130,7 +130,7 @@ Hola Mundo
 
 Cambia el texto por cualquier otro y vuelve a ejecutar el archivo.
 
-¡Felicitaciones, has creado tu primer programa en JavaScript con NodeJS!
+¡Felicitaciones, has creado tu primer programa en JavaScript con Node.js!
 
 ## Errores
 
@@ -154,7 +154,7 @@ ReferenceError: consoe is not defined
     at bootstrap_node.js:535:3
 ```
 
-Toma un tiempo acostumbrarse a leer los mensajes de error de NodeJS pero ahí está todo lo que necesitas saber para solucionarlo. El caracter `^` nos muestra dónde ocurrió el error (aunque está mezclado con otro código que genera NodeJS) y debajo de esa línea una frase que dice `ReferenceError: consoe is not defined`.
+Toma un tiempo acostumbrarse a leer los mensajes de error de Node.js pero ahí está todo lo que necesitas saber para solucionarlo. El caracter `^` nos muestra dónde ocurrió el error (aunque está mezclado con otro código que genera Node.js) y debajo de esa línea una frase que dice `ReferenceError: consoe is not defined`.
 
 Hay veces en los que es fácil encontrar los errores, otras veces no es tan fácil. Lo que si es cierto es que a medida que vayas trabajando con el lenguaje vas a ir desarrollando una intuición que te va a permitir solucionar los errores más fácilmente, pero al principio es un proceso lento que es parte de ese aprendizaje.
 
@@ -189,7 +189,7 @@ Esta vez el mensaje `SyntaxError: Invalid or unexpected token` no es tan claro, 
 
 Vuelve a agregar la comilla y verifica que se ejecute normalmente.
 
-NodeJS ejecuta el archivo línea por línea, una después de la otra. Así que podemos agregar una segunda línea a nuestro archivo:
+Node.js ejecuta el archivo línea por línea, una después de la otra. Así que podemos agregar una segunda línea a nuestro archivo:
 
 ```js
 console.log("Hola Mundo");
@@ -232,12 +232,12 @@ Fíjate que la última línea del comentario es código JavaScript válido. Sin 
 
 Al final de cada capítulo encontrarás algunas preguntas sobre los conceptos más importantes. No te preocupes si tienes que repasar el capítulo para encontrar las respuestas. Lo que sí te recomendamos es que escribas las respuestas en alguna parte (no importa si es en papel o digitalmente) para que afiances los conceptos.
 
-1. ¿Qué es NodeJS?
+1. ¿Qué es Node.js?
 
 2. Nombre al menos 2 formas en las que podemos ejecutar código JavaScript.
 
 3. ¿Cómo imprimimos "Me gusta JavaScript!" desde un archivo de texto?
 
-4. ¿Cómo se ejecuta un archivo de JavaScript en NodeJS?
+4. ¿Cómo se ejecuta un archivo de JavaScript en Node.js?
 
 5. ¿Cómo se pueden definir comentarios en JavaScript?
